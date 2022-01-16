@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>template</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="hero">
+                <img src="./images/nanmozhi-text.svg" alt="nanmozhi dictionary">
+            </div>
+            <div class="search">
+                <div class="search-bar">
+                    <input type="text" name="" id="input" placeholder="ഇവിടെ തിരയുക | search here..">
+                    <button id="search-button" ><img src="./images/icons8-search.svg" alt="search"></button>
+                </div>
+                <div class="search-menu">
+                    <div class="transliterate-box">
+                        <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2" checked>
+                        <label for="styled-checkbox-2" data-i18n-key="manglish">Manglish Input</label>
+                    </div>
+                    <div class="demo">
+                        <div class="menu-icon">
+                            <input class="menu-icon__cheeckbox" type="checkbox" />
+                            <div>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="settings-menu">
+                <div class="settings">
+                    <p data-i18n-key="theme"></p>
+                    <select id="theme" class="selectbox">
+                        <option  data-i18n-key="light" value="1"></option>
+                        <option data-i18n-key="dark" value="2"></option>
+                      </select>
+                </div>
+
+                <div class="settings">
+                    <p data-i18n-key="lang"></p>
+                    <select  class="selectbox locale-switcher" data-i18n-switcher>
+                        <option data-i18n-key="ml" value="ml">Malayalam</option>
+                        <option  data-i18n-key="en"  value="en">English</option>
+                      </select>
+                </div>
+            </div>
+        </header>
+        <section class="contents">
+            <div class="intro">
+                <h2>നന്മൊഴി മലയാളം പൊരുളേട്</h2>
+                <p>പച്ച മലയാളം പ്രോജക്ടിന്റെ പങ്കായി പണിത പൊരുളേട് ആണ് നന്മൊഴി.</p>
+                <h3>നന്മൊഴി പൊരുളേടില്‍ ചുവടെ കൊടുത്തിരിക്കുന്നപോലെ ചെയ്യാന്‍ കഴിയും</h3>
+                <ul>
+                    <li>ഇംഗ്ലീഷിലോ മലയാളത്തിലോ വാക്കുകള്‍ തിരയാവുന്നതാണ്.</li>
+                    <li>മലയാളം കീബോര്‍ഡ് ഇല്ലാതെ തന്നെ വാക്കുകള്‍ തിരയാവുന്നതാണ്. ഇതിനായി "മംഗ്ലീഷ് ടൈപ്പിംഗ്" നോക്കുക</li>
+                    <li>പച്ച മലയാള വാക്കുകള്‍ക്കും തത്ഭവ വാക്കുകള്‍ക്കും വേണ്ടിയാണ് പൊരുളേട് പണിതിട്ടുള്ളത് എങ്കിലും തത്സമ (സംസ്കൃത) വാക്കുകള്‍ വഴിയും പച്ച മലയാളം തത്സമ വാക്കുകള്‍ തിരയാവുന്നതാണ്</li>
+                    <li>എഴുത്തു തിരിപ്പ് (transliteration): <a href="https://www.internationalphoneticassociation.org/content/ipa-chart">ഐ.പി.എ(IPA)</a>, <a href="https://www.iso.org/standard/28333.html">ഐ.എസ്.ഒ(ISO 15919)</a> എന്നീ മട്ടുകള്‍ തിരഞ്ഞെടുക്കാവുന്നതാണ്.</li>
+                    <li>നയപ്പൊരുള്‍ മലയാളം ഇംഗ്ലീഷ് എന്നീ മൊഴികളില്‍ കൊടുത്തിട്ടുണ്ട്.</li>
+                </ul>
+                <a href="">കുടുതല്‍ വായിക്കുക.</a>
+                <p>ഈ വെബ്സൈറ്റ് നിങ്ങള്‍ക്ക് വെബ്-ആപ്പ് ആയി ഡൗണ്‍ലോഡ് ചെയ്ത് ഇന്റര്‍നെറ്റ് ഇല്ലാത്തപ്പോഴും പയന്‍പെടുത്താവുന്നതാണ്.</p>
+                <p style="font-style:italic" >ഇംഗ്ലീഷില്‍ വാക്കുകള്‍ തിരയുന്നതിനു മുന്‍പ് "മംഗ്ലീഷ് ടൈപ്പിംഗ്" അണയ്ക്കുക.</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="add-words">
+                <h3>വാക്കുകള്‍ ചേര്‍ക്കുക</h3>
+                <p>വാക്കുകള്‍ ചേര്‍ക്കുന്നതിനു മുന്നോടിയായി ഞങ്ങളുടെ <a href="about#word">ചട്ടങ്ങള്‍ വായിക്കുക</a> </p>
+                <div class="form">
+                    <label for="word">വാക്ക്</label>
+                    <input type="text" required="required" name="word" id="word">
+                </div>
+                <div class="form">
+                    <label for="meaning">പൊരുള്‍(meaning)</label>
+                    <input type="text" required="required" name="meaning" id="meaning">
+                </div>
+                <div class="form">
+                    <label for="type">ചൊല്ലിനം(part-of-speech)</label>
+                    <input type="text" name="type" id="type">
+                </div>
+                <div class="form">
+                    <label for="message">വിവരണം</label>
+                    <input type="textarea" name="message" id="message">
+                </div>
+                <button name="submit" type="submit" >ചേര്‍ക്കുക</button>
+                
+            </div>
+            <div class="footer-contents">
+                <div class="footer-class">
+                    <p data-i18n-key="footer-h2" class="dev"></p><a data-i18n-key="website" href="https://malayalamozhi.github.io/"></a>
+                </div>
+                <p data-i18n-key="footer-description"></p>
+                <div class="footer-class">
+                <p data-i18n-key="footer-learn" class="dev" ></p> <a data-i18n-key="footer-about" href="about.html"></a> 
+                </div>
+                <p data-i18n-key="footer-contact"></p>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/i18n.js"></script>
+    <script src="./js/trans-ml.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/ml-ipa.js" ></script>
+    <script src="./js/ml-iso.js"></script>
+</body>
+</html>
