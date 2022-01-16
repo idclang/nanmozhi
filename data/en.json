@@ -1,0 +1,17 @@
+{
+    "manglish" : "Manglish Input",
+    "theme" : "Theme",
+    "light": "Light",
+    "dark" : "Dark",
+    "transliteration": "Transliteration Scheme",
+    "lang": "Interface Language",
+    "ml": "മലയാളം",
+    "en":"ഇംഗ്ലീഷ്",
+    "footer-h2":"Developed by",
+    "website": "Malayalamozhi",
+    "footer-description":"An amalgamation of pure and tadbhava Malayalam words which uplifts the aesthetics and simplicity of the Malayalam language",
+    "footer-learn" :"To learn more, see",
+    "footer-about":"about",
+    "footer-contact":"In case of any discrepancy, please write to us at dclprogramme@gmail.com or malayalamozhi.github.io"
+
+}
